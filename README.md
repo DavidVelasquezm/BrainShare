@@ -1,0 +1,4 @@
+BrainShare
+==========
+
+Es una pagina web donde una persona que tenga un cierto conocimiento sobre cualquier cosa, tenga un perfil que muestre que tenga ese conocimiento  Por otro lado hay un usuario en busca de cierta información sobre “x” tema, y que el buscador le muestre los perfiles de gente que tiene conocimiento de estos y en el perfil se muestre su experiencia tanto profesional como academica. El usuario se contacta con el usuario en la misma pagina y le envía su pregunta sobre el tema o lo que quiere saber sobre este  y el usuario con el conocimiento se lo pase, si se requiere se da otro conocimiento a cambio. O también la opción de pagarle a el que le de el conocimiento. (falta complementar cosas de la pagina) Los usuario con mas experiencia podrán ser solo usados por usuarios que compraron cuenta.  
