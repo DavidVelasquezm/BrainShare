@@ -1,0 +1,24 @@
+
+    
+    #menu {
+        color:#B18904;
+         border: solid 2px #ccc;
+         background-color: #654;
+        }
+        
+        .rojo {
+               color:blue;
+               border: solid 2px red;
+               }
+               
+     #back {
+         border: solid 2px #000000;
+         background-color: #086A87;
+         height: 150px;
+         }
+.form-inline {
+    float: right;
+    }
+h1 {
+    float:left;
+    }

@@ -1,0 +1,21 @@
+a {
+  color: #258B8F;
+}
+
+#titulo {
+  color: #fff;
+  text-align: center;
+}
+
+.box {
+  border: dotted 3px #333;
+  padding: 10px;
+}
+
+.blue {
+  background-color: #063A5B;
+}
+
+.red {
+  background-color: red;
+}
