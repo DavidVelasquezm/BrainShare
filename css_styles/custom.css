@@ -1,0 +1,24 @@
+.botones {
+    margin-right:20px;
+    }
+    
+.span2{
+    margin-bottom:40px;
+    }
+    
+.title{
+    margin:80px 0 60px 0;
+    }
+#contenedor-titulo{
+    float:left;
+    width: 300px;
+    height: 450px;
+    }
+#contenedor-carousel {
+    float:right;
+    width: 500px;
+    height: 400px;
+    }
+.hero-unit {
+    height: 250px;
+    }
