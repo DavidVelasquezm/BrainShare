@@ -16,9 +16,13 @@
     }
 #contenedor-carousel {
     float:right;
-    width: 500px;
+    width: 50spx;
     height: 400px;
+    margin:-50px 300px 0 0 ;
     }
 .hero-unit {
     height: 250px;
+    }
+.carousel_1 {
+  margin:150px 150px 0 0;  
     }
