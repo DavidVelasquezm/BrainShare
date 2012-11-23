@@ -26,6 +26,51 @@
   margin:150px 150px 0 0;  
     }
 .about-1 {
-    padding-left: 500px;
+    padding-left: 1000px;
     
     }
+.profilePic {
+  padding: 15px;
+    }
+    
+.well {
+    float:right;
+    }
+    
+.sidebar-nav {
+    width: 250px;
+    }
+.span3 {
+    margin: 0 0 0 0 ;
+    }
+   .rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+
+    
