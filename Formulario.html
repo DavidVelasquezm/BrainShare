@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <head>
-<meta charset="utf-8" />
+<meta charset="utf-8"/>
 <title>SignUp</title>
+<link href="server.js" rel=""
 <link href="sbootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 <link href="css_styles/custom.css" rel="stylesheet">
-<form class="form-horizontal well">
+
  <script type="text/javascript" src="function/jquery-1.8.3.min.js"></script>
+         <script type="text/javascript" src="function/livevalidation_standalone.js"></script>
          <script type="text/javascript" src="function/formulario.js"></script>
+          
+          
+
         
 </head>
 <legend><h1>Sign Up in BrainShare</h1></legend>
 
-<fieldset>
-          
+<form class="formu form-horizontal well" id="brainf">
+    <fieldset>
+    
             <div class="control-group">
             <label class="control-label" for="input01"><h5>First Name</h5></label>
             
-              <input type="text" class="input-xlarge" id="input01">
+              <input type="text" class="input-xlarge " id="input01" required >
               <p class="help-block">example: Jhon</p>
             </div>
-          </div>
+          
           
          <div class="control-group">
-            <label class="control-label" for="input01"><h5>Last Names</h5></label>
-              <input type="text" class="input-xlarge" id="input01">
+            <label class="control-label" for="input02"><h5>Last Names</h5></label>
+              <input type="text" class="input-xlarge " id="input02" required >
               <p class="help-block">example: Velasquez Martinez</p>
             </div>
-          </div>
+          
           
             <div class="control-group">
-            <label class="control-label" for="input01"><h5>Email</h5></label>
-              <input type="text" class="input-xlarge" id="input01">
+            <label class="control-label" for="input03"><h5>Email</h5></label>
+              <input type="text" class="input-xlarge  " id="input03">
               <p class="help-block">example: idea@example.com </p>
             </div>
-          </div>
+        
           
-              </label>
-            </div>
-          </div>
+             
           <div class="control-group">
             <label class="control-label" for="select01"><h5>Genre</h5></label
             <div class="controls">
@@ -62,11 +66,11 @@
           
           
           <div class="control-group">
-            <label class="control-label" for="input01"><h5>Birthday Information</h5></label>
-              <input type="text" class="input-xlarge" id="input01">
+            <label class="control-label" for="input05"><h5>Birthday Information</h5></label>
+              <input type="text" class="input-xlarge" id="input05">
               <p class="help-block">example: 19/5/1885</p>
             </div>
-          </div>
+         
          
           <div class="control-group">
             <label class="control-label" for="multiSelect"><h5>country</h5></label>
@@ -77,11 +81,10 @@
                 <option>USA</option>
                 <option>Canada</option>
                 <option>Argentina</option>
-                <option>Equador</option>
+                <option>Ecuador</option>
                 <option>Panamá</option>
                 <option>Venezuela</option>
-                <option>france</option>
-              
+                <option>France</option>
               </select>
             </div>
           </div>
@@ -92,14 +95,10 @@
                 <input type="checkbox" id="optionsCheckbox" value="option1">
                 contract
               </label>
+              </div>
           
-          
-          
-          <div class="form-actions">
-            <a href="https://c9.io/davidvelasquezm/brainshare/workspace/formulario-2.html" button type="submit" class="btn btn-primary">Continue</a>     
-            <button type="reset" class="btn">Cancel</button> 
-            
-           
-          </div>
-        </fieldset>
+          <input id="boton-forma" class="submit" type="submit" value="Submit">
+         
+    </fieldset>
+</form>    
         </html>
