@@ -23,7 +23,7 @@
     
 
     var Coderiser = StackMob.Model.extend({ schemaName: 'formulario2' });
-    var entry = new Coderiser({username: UserName, password: Password, profesionalstatus: Profesionalstatus, collegeorcompany: collegeorcompany, knowledge: knowledge, knowledgeenfoqued: knowledgeenfoqued, tellus: tellusaboutyourknowledge, workexperience:workexperience, useranemcheckbox:optionsCheckbox });
+    var entry = new BrainSharer({username: UserName, password: Password, profesionalstatus: Profesionalstatus, collegeorcompany: collegeorcompany, knowledge: knowledge, knowledgeenfoqued: knowledgeenfoqued, tellus: tellusaboutyourknowledge, workexperience:workexperience, useranemcheckbox:optionsCheckbox });
     entry.create();
 
     console.log("Created a coderiser in StackMob server");
