@@ -3,6 +3,8 @@ var http = require('http')
   , file = new httpStatic.Server('.')
   , port = process.env.PORT || 4567
   , STACKMOB_API_SERVER = 'api.stackmob.com';
+  
+  
 
 
 http.createServer(function(request, response) {

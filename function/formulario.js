@@ -12,9 +12,9 @@ $(document).ready(function() {
         var input02_val = new LiveValidation( "input02", { validMessage: "Correct!", wait: 1000} );
         input02_val.add( Validate.Presence,{ failureMessage: "Insert Your LastName" } );
     
-        var input03_val = new LiveValidation( "input03", { validMessage: "Correct!", wait: 1000 } );
-        input03_val.add( Validate.Presence,{ failureMessage: "Insert Your E-mail" } );
-        input03_val.add( Validate.Email,{ failureMessage: "Must Be a Valid E-mail" } );
+        var input07_Val = new LiveValidation( "input07", { validMessage: "Correct!", wait: 1000 } );
+        input07_Val.add( Validate.Presence,{ failureMessage: "Insert Your E-mail" } );
+        input07_Val.add( Validate.Email,{ failureMessage: "Must Be a Valid E-mail" } );
                 
         var select01_val = new LiveValidation( "select01", { validMessage: "Correct!", wait: 1000} );
         select01_val.add( Validate.Presence,{ failureMessage: "Choose A Genre" } );
