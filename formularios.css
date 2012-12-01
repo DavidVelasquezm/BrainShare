@@ -4,7 +4,8 @@
      }
      
  #input06  {
-     background-color:#2B2727 ;
+     background-color:#2B2727;
+    ;
      }
      
  #input07  {
@@ -46,4 +47,11 @@
 .form-actions  {
      background-image: url(http://subtlepatterns.com/patterns/micro_carbon.png) ;
      }
+body {
+    color:#fff;
+    }
+#imgstf {
+    float:right;
+    margin: 0 0 0 0 ;
+    }
      

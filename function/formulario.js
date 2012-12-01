@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
     
     $('#boton-formulario-2').click(function(e) {
-        e.preventDefault();
+      
           //$('.formu').validate();
           
         var password_val = new LiveValidation('input03');
