@@ -1,8 +1,23 @@
 var paginas = {
-    'cells breathing': '/cv.html',
-    'Animals':'cv.html',
-    'Cells': 'flujo.html',
-    'Heart': 'flujo.html'
+    'cells breathing': 'pagina.html' ;
+    'animals': 'pagina.html' ;
+    'Cells': 'pagina.html' ;
+    'Heart': 'pagina.html' ;
+    'cells breathing': 'pagina.html' ;
+    'Animals':'pagin.html'
+    'Cells':'pagina.html' ;
+    'Heart':'pagina.html' ;
+    'Math':'pagina.html' ;
+    'Baldor Algebra':'pagina.html';
+    'Algorithms': 'pagina.html';
+    'factorization': 'pagina.html';
+    'Límite de una función': 'pagina.html';
+    'Honorificus calculus': 'pagina.html';
+    'Systems of linear equations': 'pagina.html';
+    'physics': 'pagina.html';
+    'String theory': 'pagina.html';
+    'Fall': 'pagina.html';
+    'Units Transformation': 'pagina.html';
 };
 
 
@@ -18,5 +33,6 @@ $('#buscar').click(function(e) {
     }
     
     console.log(pagina);
+
     
 });
